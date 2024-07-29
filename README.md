@@ -6,8 +6,11 @@ This is a simple chess backend I wrote in Rust.
 It features only a very basic UI, and is intended more as a demonstration of the negamax algorithm than an actual playable chess application.
 
 To use the application, build the project as outlined below, and run the executable.
-There is a basic shell, which allows the user to choose a color (white or black) and play against the computer.
-To exit the shell, enter `--> quit` or press control-`C`.
+There is a basic shell, which allows the user to play against the computer.
+To exit the shell, enter `quit` or press control-`C`.
+
+At the start, the user is prompted to choose which color they would like to play as.
+Enter `w` to play as white, and `b` to play as black.
 
 Each move must be entered in Standard Algebraic Notation (SAN). More information about SAN can be found [here]().
 After a valid move has been entered, the new board state will be printed to the terminal.
